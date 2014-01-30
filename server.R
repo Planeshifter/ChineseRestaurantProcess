@@ -7,7 +7,7 @@
 
 library(shiny)
 library(ggplot2)
-source('~/ChineseRestaurantProcess/ChineseRestaurantProcess.R', echo=TRUE)
+source('ChineseRestaurantProcess.R', echo=TRUE)
 
 shinyServer(function(input, output) {
    
