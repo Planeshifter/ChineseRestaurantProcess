@@ -13,7 +13,7 @@ shinyUI(pageWithSidebar(
   
   # Sidebar with a slider input for number of observations
   sidebarPanel(
-    tags$head( tags$script(src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS_HTML") ),
+    tags$head( tags$script(src="https://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS_HTML") ),
     sliderInput("num_customers", 
                 "Number of Customers:", 
                 min = 1, 
